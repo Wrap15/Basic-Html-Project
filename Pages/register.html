@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <a href="index.html">
+        <img src="../Multimedia/new_cn_logo.svg" />
+    </a>
+    <h2>Create an Account</h2>
+    </header>
+    <hr />
+    <section id="registration-form">
+      <form action="#" method="post">
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <label for="fullname"> 
+                Full Name:
+            </label>
+            <input type="text" id="fullname" name="fullname" required/>
+            <br /><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required/>
+            <br /><br />
+            <label for="newusername">UserName:</label>
+            <input type="text" id="newusername" name="newusername" required/>
+            <br /><br />
+            <label for="newpassword">Password:</label>
+            <input type="password" id="newpassword" name="newpassword" required/>
+            <br /><br />
+            <label for="userType">Uesr Type:</label>
+            <select id="userType" name="userType" required>
+                <option value="" disabled selected>
+                   Selected user type
+                </option>
+                <option value="student">Student</option>
+                <option value="instuctors">Instuctors</option>
+            </select>
+            <br />
+            <br />
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="course1">Course1-Web Devlopment</option>
+                <option value="course2">Course2-Data Science Fundamentals</option>
+                <option value="course3">Course3- Digital Marketing Mastery</option>
+                <option value="course4">Course4- Android Devlopment</option>
+            </select>
+            <br />
+            <br />
+            <button type="submit">Register</button>
+
+        </fieldset>
+      </form>
+
+    </section>
+</body>
+</html>
